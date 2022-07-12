@@ -1,10 +1,10 @@
-package com.example.customer;
+package com.example.datamodel;
 
 import lombok.Builder;
 import lombok.Data;
 
-@Data
 @Builder
-public class FraudCheckRespone {
+@Data
+public class FraudCheckResponse {
     private Boolean isFraudster;
 }
